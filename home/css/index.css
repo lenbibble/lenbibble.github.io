@@ -10,3 +10,13 @@
 body{
     margin: 0%;
 }
+
+#head1 {
+    text-align: center;
+    color: blue;
+}
+
+#link1 {
+    text-align: center;
+    color:black;
+}
