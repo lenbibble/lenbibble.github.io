@@ -6,7 +6,7 @@ setInterval(function() {
     lastUpdate = new Date().getTime();
     i++;
     document.getElementById("counter").innerHTML = i;
-}, 100);
+}, 1000);
 
 var time = new Date().getTime() - lastUpdate;
 console.log(time);
