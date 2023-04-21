@@ -1,8 +1,12 @@
 // make document update every 1000ms and record the time of last update
+
+var i = 0;
 var lastUpdate = new Date().getTime();
 setInterval(function() {
     lastUpdate = new Date().getTime();
-}, 1000);
+    i++;
+    document.getElementById("counter").innerHTML = i;
+}, 100);
 
 var time = new Date().getTime() - lastUpdate;
 console.log(time);
