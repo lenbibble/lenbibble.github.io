@@ -1,5 +1,6 @@
 // calculate the time elapsed since the last update
 var time = new Date().getTime() - lastUpdate;
+console.log(time);
 // make the button elemnts clickable and showing the time elapsed in elements with class "Time_show"
 var buttons = document.getElementsByClassName("button");
 for (var i = 0; i < buttons.length; i++) {
